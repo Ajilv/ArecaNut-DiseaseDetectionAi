@@ -1,0 +1,12 @@
+# Areca Nut Disease Prediction System
+
+## Overview
+This project is a web-based application designed to predict diseases affecting Areca nut trees using a pre-trained TensorFlow model (`arecanut_cnn_model.keras`). The backend is built with Django and Django REST Framework, providing a RESTful API for image analysis. The system integrates with the Groq AI API to generate recommendations and remedies based on the predicted disease. Users can upload images of Areca nut trees, and the application returns the disease name along with actionable advice.
+
+## Features
+- Upload images of Areca nut trees for disease analysis.
+- Predict specific diseases (e.g., "yellow stem disease", "Bud Rot") using a CNN model.
+- Generate evidence-based recommendations and remedies using Groq AI.
+- User authentication with JWT tokens.
+- REST API endpoints for analysis and user management.
+
